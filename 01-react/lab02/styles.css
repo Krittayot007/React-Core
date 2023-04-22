@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* root 16px * 0.625 == 10px */
+    
+}
+
+body {
+    font-size: 4rem;
+    background-color: #23272F;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.box {
+    color: white;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.link {
+    color: #149ECA;
+    cursor: pointer;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.header {
+    text-align: start;
+    padding-left: 20px;
+}
+
+.content {
+    font-size: 1.8rem;
+    padding: 20px;
+    padding-top : 10px;
+}
+
+.card_in {
+    background-color: #343A46;
+    color: white;
+    font-size: 3rem;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.lists {
+    font-size: 1.5rem;
+    padding: 20px;
+}
